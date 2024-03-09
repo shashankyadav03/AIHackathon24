@@ -117,7 +117,7 @@ def check_wallet_has_enough_balance(symbol, quantity):
 
 def check_wallet_has_enough_symbol_to_sale(symbol, quantity):
     symbol_balance = get_symbol_balance(symbol)
-    print(symbol_balance)
+    print("Balance of ", symbol, " in wallet: ", symbol_balance)
     if symbol_balance is not None:
         return symbol_balance >= quantity
     return False
@@ -126,12 +126,15 @@ def get_account_info():
     endpoint = '/v3/account'
     response = make_request("GET", endpoint, {}, True)
     #convert response to json and save to file
-    with open('account_info.json', 'w') as f:
+    with open('AI_HFT_Quantum_Project/trading/account_info.json', 'w') as f:
         json.dump(response, f)
     return response
 
 def main():
     #Simulate trading environment
+    get_account_info()
+    print("Simulating trading environment")
+    print("Amount of USDT in wallet: ", get_usdt_balance())
     execution('COMPUSDT', 1, 'BUY')
     time.sleep(1)
     execution('COMPUSDT', 1, 'SELL')
@@ -142,6 +145,7 @@ def main():
     time.sleep(1)
     print("Amount of USDT in wallet: ", get_usdt_balance())
     print("Simulated trading completed")
+
 
 if __name__ == '__main__':
     main()
