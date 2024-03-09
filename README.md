@@ -56,4 +56,4 @@ Specify the license under which your project is released, such as MIT or Apache 
 
 ## Disclaimer
 
-Include a disclaimer noting that this project is for educational purposes and should not be used as financial advice or for live trading without proper testing and risk management.
+Include a small disclaimer noting that this project is for educational purposes and should not be used as financial advice or for live trading without proper testing and risk management.
