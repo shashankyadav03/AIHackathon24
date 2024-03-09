@@ -62,8 +62,8 @@ class RiskManager:
         """
         self.daily_loss = 0.0
 
-# Example usage
-if __name__ == "__main__":
+def calculate_risk(signal):
+
     # Initialize the risk manager with example parameters
     risk_manager = RiskManager(max_total_exposure=0.2, max_risk_per_trade=0.01, max_daily_loss=0.05)
 
@@ -86,3 +86,7 @@ if __name__ == "__main__":
     print(f"Daily Loss after trade: {risk_manager.daily_loss}")
     risk_manager.reset_daily_loss()
     print(f"Daily Loss after reset: {risk_manager.daily_loss}")
+
+# Example usage
+if __name__ == "__main__":
+    calculate_risk()
