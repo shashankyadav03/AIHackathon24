@@ -55,11 +55,11 @@ def compare_data_with_historical_data(historical_data, real_time_data, threshold
 def main():
     # real_time_data = get_real_time_data()
     # #read csv file
-    # historical_data = pd.read_csv("AI_HFT_Quantum_Project/data/real-time/real-time-data.csv")
+    # historical_data = pd.read_csv("AI_HFT_Quantum_Project/data/real_time/real-time-data.csv")
     # significant_change = compare_data_with_historical_data(historical_data, real_time_data, 0.1)
     # print(significant_change)
     # #save it into csv file
-    # real_time_data.to_csv("AI_HFT_Quantum_Project/data/real-time/real-time-data.csv", index=False)
+    # real_time_data.to_csv("AI_HFT_Quantum_Project/data/real_time/real-time-data.csv", index=False)
     print(get_historical_data('BTCUSDT'))
 
 if __name__ == "__main__":
