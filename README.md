@@ -1,4 +1,3 @@
-```markdown
 # AI High-Frequency Trading (HFT) System with Quantum Computing Enhancements
 
 ## Overview
@@ -54,6 +53,7 @@ Specify the license under which your project is released, such as MIT or Apache 
 ## Acknowledgments
 
 - Mention any organizations, datasets, or individuals whose contributions have been vital to this project.
+
 
 ## Disclaimer
 
