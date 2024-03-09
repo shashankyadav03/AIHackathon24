@@ -1,0 +1,36 @@
+{
+    "os": "macOS-14.2.1-arm64-arm-64bit",
+    "python": "3.10.12",
+    "heartbeatAt": "2024-03-09T18:36:39.717472",
+    "startedAt": "2024-03-09T18:36:39.222762",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "git": {
+        "remote": "https://github.com/shashankyadav03/aihackathon24.git",
+        "commit": "cf8561f9ae4d43b6e616e54318fc70cc93da663d"
+    },
+    "email": "anthonybreeganzo02@gmail.com",
+    "root": "/Users/firex/Hackathon/aihackathon24",
+    "host": "Anthonys-MacBook-Air.local",
+    "username": "firex",
+    "executable": "/Users/firex/anaconda3/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "disk": {
+        "/": {
+            "total": 228.27386474609375,
+            "used": 199.93170928955078
+        }
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 8.0
+    }
+}

@@ -1,0 +1,272 @@
+2024-03-09 18:51:02,577 INFO    StreamThr :24524 [internal.py:wandb_internal():86] W&B internal server running at pid: 24524, started at: 2024-03-09 18:51:02.576814
+2024-03-09 18:51:02,578 DEBUG   HandlerThread:24524 [handler.py:handle_request():146] handle_request: status
+2024-03-09 18:51:02,581 INFO    WriterThread:24524 [datastore.py:open_for_write():87] open: /Users/firex/Hackathon/aihackathon24/AI_HFT_Quantum_Project/notebooks/wandb/run-20240309_185102-aeuka8lz/run-aeuka8lz.wandb
+2024-03-09 18:51:02,582 DEBUG   SenderThread:24524 [sender.py:send():378] send: header
+2024-03-09 18:51:02,612 DEBUG   SenderThread:24524 [sender.py:send():378] send: run
+2024-03-09 18:51:07,486 INFO    SenderThread:24524 [dir_watcher.py:__init__():211] watching files in: /Users/firex/Hackathon/aihackathon24/AI_HFT_Quantum_Project/notebooks/wandb/run-20240309_185102-aeuka8lz/files
+2024-03-09 18:51:07,487 INFO    SenderThread:24524 [sender.py:_start_run_threads():1099] run started: aeuka8lz with start time 1710010262.577505
+2024-03-09 18:51:07,510 DEBUG   HandlerThread:24524 [handler.py:handle_request():146] handle_request: check_version
+2024-03-09 18:51:07,510 DEBUG   SenderThread:24524 [sender.py:send_request():405] send_request: check_version
+2024-03-09 18:51:07,710 DEBUG   HandlerThread:24524 [handler.py:handle_request():146] handle_request: status_report
+2024-03-09 18:51:07,720 DEBUG   HandlerThread:24524 [handler.py:handle_request():146] handle_request: run_start
+2024-03-09 18:51:07,736 DEBUG   HandlerThread:24524 [system_info.py:__init__():26] System info init
+2024-03-09 18:51:07,737 DEBUG   HandlerThread:24524 [system_info.py:__init__():41] System info init done
+2024-03-09 18:51:07,737 INFO    HandlerThread:24524 [system_monitor.py:start():194] Starting system monitor
+2024-03-09 18:51:07,737 INFO    SystemMonitor:24524 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-09 18:51:07,738 INFO    HandlerThread:24524 [system_monitor.py:probe():214] Collecting system info
+2024-03-09 18:51:07,739 INFO    SystemMonitor:24524 [interfaces.py:start():190] Started cpu monitoring
+2024-03-09 18:51:07,739 DEBUG   HandlerThread:24524 [system_info.py:probe():150] Probing system
+2024-03-09 18:51:07,743 INFO    SystemMonitor:24524 [interfaces.py:start():190] Started disk monitoring
+2024-03-09 18:51:07,744 INFO    SystemMonitor:24524 [interfaces.py:start():190] Started gpuapple monitoring
+2024-03-09 18:51:07,754 INFO    SystemMonitor:24524 [interfaces.py:start():190] Started memory monitoring
+2024-03-09 18:51:07,757 INFO    SystemMonitor:24524 [interfaces.py:start():190] Started network monitoring
+2024-03-09 18:51:07,760 DEBUG   HandlerThread:24524 [system_info.py:_probe_git():135] Probing git
+2024-03-09 18:51:07,820 DEBUG   HandlerThread:24524 [system_info.py:_probe_git():143] Probing git done
+2024-03-09 18:51:07,820 DEBUG   HandlerThread:24524 [system_info.py:probe():198] Probing system done
+2024-03-09 18:51:07,820 DEBUG   HandlerThread:24524 [system_monitor.py:probe():223] {'os': 'macOS-14.2.1-arm64-arm-64bit', 'python': '3.10.12', 'heartbeatAt': '2024-03-09T18:51:07.743142', 'startedAt': '2024-03-09T18:51:02.570823', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'git': {'remote': 'https://github.com/shashankyadav03/aihackathon24.git', 'commit': 'cf8561f9ae4d43b6e616e54318fc70cc93da663d'}, 'email': 'anthonybreeganzo02@gmail.com', 'root': '/Users/firex/Hackathon/aihackathon24', 'host': 'Anthonys-MacBook-Air.local', 'username': 'firex', 'executable': '/Users/firex/anaconda3/bin/python', 'cpu_count': 8, 'cpu_count_logical': 8, 'disk': {'/': {'total': 228.27386474609375, 'used': 200.9476203918457}}, 'gpuapple': {'type': 'arm', 'vendor': 'Apple'}, 'memory': {'total': 8.0}}
+2024-03-09 18:51:07,820 INFO    HandlerThread:24524 [system_monitor.py:probe():224] Finished collecting system info
+2024-03-09 18:51:07,820 INFO    HandlerThread:24524 [system_monitor.py:probe():227] Publishing system info
+2024-03-09 18:51:07,820 DEBUG   HandlerThread:24524 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-03-09 18:51:08,489 INFO    Thread-12 :24524 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/firex/Hackathon/aihackathon24/AI_HFT_Quantum_Project/notebooks/wandb/run-20240309_185102-aeuka8lz/files/conda-environment.yaml
+2024-03-09 18:51:18,679 DEBUG   HandlerThread:24524 [system_info.py:_save_conda():219] Saving conda packages done
+2024-03-09 18:51:18,681 INFO    HandlerThread:24524 [system_monitor.py:probe():229] Finished publishing system info
+2024-03-09 18:51:18,683 DEBUG   HandlerThread:24524 [handler.py:handle_request():146] handle_request: status_report
+2024-03-09 18:51:18,683 DEBUG   HandlerThread:24524 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-09 18:51:18,683 DEBUG   HandlerThread:24524 [handler.py:handle_request():146] handle_request: status_report
+2024-03-09 18:51:18,684 DEBUG   HandlerThread:24524 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-09 18:51:18,684 DEBUG   SenderThread:24524 [sender.py:send():378] send: files
+2024-03-09 18:51:18,684 INFO    SenderThread:24524 [sender.py:_save_file():1365] saving file wandb-metadata.json with policy now
+2024-03-09 18:51:19,002 DEBUG   HandlerThread:24524 [handler.py:handle_request():146] handle_request: python_packages
+2024-03-09 18:51:19,002 DEBUG   SenderThread:24524 [sender.py:send_request():405] send_request: python_packages
+2024-03-09 18:51:19,003 DEBUG   HandlerThread:24524 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-09 18:51:19,003 DEBUG   HandlerThread:24524 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-09 18:51:19,003 DEBUG   SenderThread:24524 [sender.py:send_request():405] send_request: stop_status
+2024-03-09 18:51:19,012 DEBUG   HandlerThread:24524 [handler.py:handle_request():146] handle_request: pause
+2024-03-09 18:51:19,012 INFO    HandlerThread:24524 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-03-09 18:51:19,012 INFO    HandlerThread:24524 [system_monitor.py:finish():203] Stopping system monitor
+2024-03-09 18:51:19,012 INFO    HandlerThread:24524 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-09 18:51:19,012 DEBUG   SystemMonitor:24524 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-09 18:51:19,013 INFO    HandlerThread:24524 [interfaces.py:finish():202] Joined disk monitor
+2024-03-09 18:51:19,013 DEBUG   SystemMonitor:24524 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-03-09 18:51:19,013 DEBUG   SystemMonitor:24524 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-03-09 18:51:19,013 INFO    HandlerThread:24524 [interfaces.py:finish():202] Joined gpuapple monitor
+2024-03-09 18:51:19,014 INFO    HandlerThread:24524 [interfaces.py:finish():202] Joined memory monitor
+2024-03-09 18:51:19,014 INFO    HandlerThread:24524 [interfaces.py:finish():202] Joined network monitor
+2024-03-09 18:51:19,028 DEBUG   HandlerThread:24524 [handler.py:handle_request():146] handle_request: resume
+2024-03-09 18:51:19,029 INFO    HandlerThread:24524 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-03-09 18:51:19,029 INFO    HandlerThread:24524 [system_monitor.py:start():194] Starting system monitor
+2024-03-09 18:51:19,029 INFO    SystemMonitor:24524 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-09 18:51:19,030 INFO    SystemMonitor:24524 [interfaces.py:start():190] Started cpu monitoring
+2024-03-09 18:51:19,030 INFO    SystemMonitor:24524 [interfaces.py:start():190] Started disk monitoring
+2024-03-09 18:51:19,031 INFO    SystemMonitor:24524 [interfaces.py:start():190] Started gpuapple monitoring
+2024-03-09 18:51:19,035 INFO    SystemMonitor:24524 [interfaces.py:start():190] Started memory monitoring
+2024-03-09 18:51:19,037 INFO    SystemMonitor:24524 [interfaces.py:start():190] Started network monitoring
+2024-03-09 18:51:19,414 DEBUG   SenderThread:24524 [sender.py:send():378] send: telemetry
+2024-03-09 18:51:19,414 DEBUG   SenderThread:24524 [sender.py:send():378] send: telemetry
+2024-03-09 18:51:19,414 DEBUG   SenderThread:24524 [sender.py:send():378] send: stats
+2024-03-09 18:51:19,443 INFO    wandb-upload_0:24524 [upload_job.py:push():131] Uploaded file /var/folders/s1/xfgvbv_17n14_mt0dcp2n2tr0000gn/T/tmpgfwbhxwqwandb/f8n9zaqu-wandb-metadata.json
+2024-03-09 18:51:19,535 INFO    Thread-12 :24524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/firex/Hackathon/aihackathon24/AI_HFT_Quantum_Project/notebooks/wandb/run-20240309_185102-aeuka8lz/files/conda-environment.yaml
+2024-03-09 18:51:19,535 INFO    Thread-12 :24524 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/firex/Hackathon/aihackathon24/AI_HFT_Quantum_Project/notebooks/wandb/run-20240309_185102-aeuka8lz/files/wandb-metadata.json
+2024-03-09 18:51:19,535 INFO    Thread-12 :24524 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/firex/Hackathon/aihackathon24/AI_HFT_Quantum_Project/notebooks/wandb/run-20240309_185102-aeuka8lz/files/requirements.txt
+2024-03-09 18:51:23,142 DEBUG   HandlerThread:24524 [handler.py:handle_request():146] handle_request: status_report
+2024-03-09 18:51:23,558 INFO    Thread-12 :24524 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/firex/Hackathon/aihackathon24/AI_HFT_Quantum_Project/notebooks/wandb/run-20240309_185102-aeuka8lz/files/output.log
+2024-03-09 18:51:25,575 INFO    Thread-12 :24524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/firex/Hackathon/aihackathon24/AI_HFT_Quantum_Project/notebooks/wandb/run-20240309_185102-aeuka8lz/files/output.log
+2024-03-09 18:51:28,266 DEBUG   HandlerThread:24524 [handler.py:handle_request():146] handle_request: status_report
+2024-03-09 18:51:29,596 INFO    Thread-12 :24524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/firex/Hackathon/aihackathon24/AI_HFT_Quantum_Project/notebooks/wandb/run-20240309_185102-aeuka8lz/files/output.log
+2024-03-09 18:51:33,628 INFO    Thread-12 :24524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/firex/Hackathon/aihackathon24/AI_HFT_Quantum_Project/notebooks/wandb/run-20240309_185102-aeuka8lz/files/output.log
+2024-03-09 18:51:33,741 DEBUG   HandlerThread:24524 [handler.py:handle_request():146] handle_request: status_report
+2024-03-09 18:51:34,026 DEBUG   HandlerThread:24524 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-09 18:51:34,026 DEBUG   SenderThread:24524 [sender.py:send_request():405] send_request: stop_status
+2024-03-09 18:51:34,028 DEBUG   HandlerThread:24524 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-09 18:51:34,626 INFO    Thread-12 :24524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/firex/Hackathon/aihackathon24/AI_HFT_Quantum_Project/notebooks/wandb/run-20240309_185102-aeuka8lz/files/config.yaml
+2024-03-09 18:51:35,638 INFO    Thread-12 :24524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/firex/Hackathon/aihackathon24/AI_HFT_Quantum_Project/notebooks/wandb/run-20240309_185102-aeuka8lz/files/output.log
+2024-03-09 18:51:39,445 DEBUG   HandlerThread:24524 [handler.py:handle_request():146] handle_request: status_report
+2024-03-09 18:51:41,687 INFO    Thread-12 :24524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/firex/Hackathon/aihackathon24/AI_HFT_Quantum_Project/notebooks/wandb/run-20240309_185102-aeuka8lz/files/output.log
+2024-03-09 18:51:44,466 DEBUG   HandlerThread:24524 [handler.py:handle_request():146] handle_request: status_report
+2024-03-09 18:51:47,708 INFO    Thread-12 :24524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/firex/Hackathon/aihackathon24/AI_HFT_Quantum_Project/notebooks/wandb/run-20240309_185102-aeuka8lz/files/output.log
+2024-03-09 18:51:49,038 DEBUG   HandlerThread:24524 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-09 18:51:49,394 DEBUG   HandlerThread:24524 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-09 18:51:49,397 DEBUG   SenderThread:24524 [sender.py:send_request():405] send_request: stop_status
+2024-03-09 18:51:49,747 DEBUG   HandlerThread:24524 [handler.py:handle_request():146] handle_request: status_report
+2024-03-09 18:51:50,054 DEBUG   HandlerThread:24524 [handler.py:handle_request():146] handle_request: pause
+2024-03-09 18:51:50,054 INFO    HandlerThread:24524 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-03-09 18:51:50,055 INFO    HandlerThread:24524 [system_monitor.py:finish():203] Stopping system monitor
+2024-03-09 18:51:50,061 INFO    HandlerThread:24524 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-09 18:51:50,068 DEBUG   SystemMonitor:24524 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-09 18:51:50,069 INFO    HandlerThread:24524 [interfaces.py:finish():202] Joined disk monitor
+2024-03-09 18:51:50,069 DEBUG   SystemMonitor:24524 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-03-09 18:51:50,069 INFO    HandlerThread:24524 [interfaces.py:finish():202] Joined gpuapple monitor
+2024-03-09 18:51:50,069 DEBUG   SystemMonitor:24524 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-03-09 18:51:50,069 INFO    HandlerThread:24524 [interfaces.py:finish():202] Joined memory monitor
+2024-03-09 18:51:50,080 INFO    HandlerThread:24524 [interfaces.py:finish():202] Joined network monitor
+2024-03-09 18:51:50,080 DEBUG   SenderThread:24524 [sender.py:send():378] send: stats
+2024-03-09 18:51:50,448 DEBUG   HandlerThread:24524 [handler.py:handle_request():146] handle_request: resume
+2024-03-09 18:51:50,448 INFO    HandlerThread:24524 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-03-09 18:51:50,448 INFO    HandlerThread:24524 [system_monitor.py:start():194] Starting system monitor
+2024-03-09 18:51:50,451 INFO    SystemMonitor:24524 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-09 18:51:50,451 INFO    SystemMonitor:24524 [interfaces.py:start():190] Started cpu monitoring
+2024-03-09 18:51:50,453 INFO    SystemMonitor:24524 [interfaces.py:start():190] Started disk monitoring
+2024-03-09 18:51:50,458 INFO    SystemMonitor:24524 [interfaces.py:start():190] Started gpuapple monitoring
+2024-03-09 18:51:50,460 INFO    SystemMonitor:24524 [interfaces.py:start():190] Started memory monitoring
+2024-03-09 18:51:50,461 INFO    SystemMonitor:24524 [interfaces.py:start():190] Started network monitoring
+2024-03-09 18:51:51,233 DEBUG   HandlerThread:24524 [handler.py:handle_request():146] handle_request: log_artifact
+2024-03-09 18:51:51,233 DEBUG   SenderThread:24524 [sender.py:send_request():405] send_request: log_artifact
+2024-03-09 18:51:51,542 DEBUG   HandlerThread:24524 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-09 18:51:51,724 INFO    Thread-12 :24524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/firex/Hackathon/aihackathon24/AI_HFT_Quantum_Project/notebooks/wandb/run-20240309_185102-aeuka8lz/files/output.log
+2024-03-09 18:51:51,724 INFO    Thread-12 :24524 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/firex/Hackathon/aihackathon24/AI_HFT_Quantum_Project/notebooks/wandb/run-20240309_185102-aeuka8lz/files/media/table/Cryptocurrency Sentiment Analysis Table _0_1eee6c4e9e0adad23b1d.table.json
+2024-03-09 18:51:51,724 INFO    Thread-12 :24524 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/firex/Hackathon/aihackathon24/AI_HFT_Quantum_Project/notebooks/wandb/run-20240309_185102-aeuka8lz/files/media
+2024-03-09 18:51:51,724 INFO    Thread-12 :24524 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/firex/Hackathon/aihackathon24/AI_HFT_Quantum_Project/notebooks/wandb/run-20240309_185102-aeuka8lz/files/media/table
+2024-03-09 18:51:52,468 INFO    wandb-upload_0:24524 [upload_job.py:push():131] Uploaded file /var/folders/s1/xfgvbv_17n14_mt0dcp2n2tr0000gn/T/tmpgfwbhxwqwandb/1ks5xe1i-media/table/Cryptocurrency Sentiment Analysis Table _0_1eee6c4e9e0adad23b1d.table.json
+2024-03-09 18:51:52,545 DEBUG   HandlerThread:24524 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-09 18:51:52,833 INFO    wandb-upload_1:24524 [upload_job.py:push():89] Uploaded file /Users/firex/Library/Application Support/wandb/artifacts/staging/tmpgubl2dmo
+2024-03-09 18:51:53,528 INFO    SenderThread:24524 [sender.py:send_request_log_artifact():1431] logged artifact run-aeuka8lz-CryptocurrencySentimentAnalysisTable - {'id': 'QXJ0aWZhY3Q6NzQ5MTY3NjA0', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE0NzIyMjg0NQ==', 'latestArtifact': None}}
+2024-03-09 18:51:53,528 DEBUG   SenderThread:24524 [sender.py:send():378] send: files
+2024-03-09 18:51:53,529 INFO    SenderThread:24524 [sender.py:_save_file():1365] saving file media/table/Cryptocurrency Sentiment Analysis Table _0_1eee6c4e9e0adad23b1d.table.json with policy now
+2024-03-09 18:51:53,529 DEBUG   SenderThread:24524 [sender.py:send():378] send: history
+2024-03-09 18:51:53,530 DEBUG   SenderThread:24524 [sender.py:send_request():405] send_request: summary_record
+2024-03-09 18:51:53,530 INFO    SenderThread:24524 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-09 18:51:53,530 DEBUG   SenderThread:24524 [sender.py:send():378] send: telemetry
+2024-03-09 18:51:53,530 DEBUG   SenderThread:24524 [sender.py:send():378] send: exit
+2024-03-09 18:51:53,531 INFO    SenderThread:24524 [sender.py:send_exit():585] handling exit code: 0
+2024-03-09 18:51:53,532 INFO    SenderThread:24524 [sender.py:send_exit():587] handling runtime: 43
+2024-03-09 18:51:53,533 INFO    SenderThread:24524 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-09 18:51:53,533 INFO    SenderThread:24524 [sender.py:send_exit():593] send defer
+2024-03-09 18:51:53,533 DEBUG   SenderThread:24524 [sender.py:send_request():405] send_request: poll_exit
+2024-03-09 18:51:53,533 DEBUG   HandlerThread:24524 [handler.py:handle_request():146] handle_request: defer
+2024-03-09 18:51:53,533 INFO    HandlerThread:24524 [handler.py:handle_request_defer():172] handle defer: 0
+2024-03-09 18:51:53,534 DEBUG   SenderThread:24524 [sender.py:send_request():405] send_request: defer
+2024-03-09 18:51:53,534 INFO    SenderThread:24524 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-03-09 18:51:53,535 INFO    SenderThread:24524 [sender.py:transition_state():613] send defer: 1
+2024-03-09 18:51:53,535 DEBUG   HandlerThread:24524 [handler.py:handle_request():146] handle_request: defer
+2024-03-09 18:51:53,535 INFO    HandlerThread:24524 [handler.py:handle_request_defer():172] handle defer: 1
+2024-03-09 18:51:53,535 DEBUG   SenderThread:24524 [sender.py:send_request():405] send_request: defer
+2024-03-09 18:51:53,535 INFO    SenderThread:24524 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-03-09 18:51:53,535 INFO    SenderThread:24524 [sender.py:transition_state():613] send defer: 2
+2024-03-09 18:51:53,535 DEBUG   HandlerThread:24524 [handler.py:handle_request():146] handle_request: defer
+2024-03-09 18:51:53,536 INFO    HandlerThread:24524 [handler.py:handle_request_defer():172] handle defer: 2
+2024-03-09 18:51:53,536 INFO    HandlerThread:24524 [system_monitor.py:finish():203] Stopping system monitor
+2024-03-09 18:51:53,536 DEBUG   SystemMonitor:24524 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-09 18:51:53,536 INFO    HandlerThread:24524 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-09 18:51:53,536 DEBUG   SystemMonitor:24524 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-03-09 18:51:53,536 INFO    HandlerThread:24524 [interfaces.py:finish():202] Joined disk monitor
+2024-03-09 18:51:53,536 DEBUG   SystemMonitor:24524 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-03-09 18:51:53,649 INFO    HandlerThread:24524 [interfaces.py:finish():202] Joined gpuapple monitor
+2024-03-09 18:51:53,649 INFO    HandlerThread:24524 [interfaces.py:finish():202] Joined memory monitor
+2024-03-09 18:51:53,649 INFO    HandlerThread:24524 [interfaces.py:finish():202] Joined network monitor
+2024-03-09 18:51:53,650 DEBUG   HandlerThread:24524 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-09 18:51:53,650 DEBUG   SenderThread:24524 [sender.py:send_request():405] send_request: defer
+2024-03-09 18:51:53,650 INFO    SenderThread:24524 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-03-09 18:51:53,650 INFO    SenderThread:24524 [sender.py:transition_state():613] send defer: 3
+2024-03-09 18:51:53,650 DEBUG   SenderThread:24524 [sender.py:send():378] send: stats
+2024-03-09 18:51:53,650 DEBUG   HandlerThread:24524 [handler.py:handle_request():146] handle_request: defer
+2024-03-09 18:51:53,650 DEBUG   SenderThread:24524 [sender.py:send_request():405] send_request: poll_exit
+2024-03-09 18:51:53,650 INFO    HandlerThread:24524 [handler.py:handle_request_defer():172] handle defer: 3
+2024-03-09 18:51:53,650 DEBUG   SenderThread:24524 [sender.py:send_request():405] send_request: defer
+2024-03-09 18:51:53,650 INFO    SenderThread:24524 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-03-09 18:51:53,650 INFO    SenderThread:24524 [sender.py:transition_state():613] send defer: 4
+2024-03-09 18:51:53,651 DEBUG   HandlerThread:24524 [handler.py:handle_request():146] handle_request: defer
+2024-03-09 18:51:53,651 INFO    HandlerThread:24524 [handler.py:handle_request_defer():172] handle defer: 4
+2024-03-09 18:51:53,651 DEBUG   SenderThread:24524 [sender.py:send_request():405] send_request: defer
+2024-03-09 18:51:53,651 INFO    SenderThread:24524 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-03-09 18:51:53,651 INFO    SenderThread:24524 [sender.py:transition_state():613] send defer: 5
+2024-03-09 18:51:53,651 DEBUG   HandlerThread:24524 [handler.py:handle_request():146] handle_request: defer
+2024-03-09 18:51:53,651 INFO    HandlerThread:24524 [handler.py:handle_request_defer():172] handle defer: 5
+2024-03-09 18:51:53,651 DEBUG   SenderThread:24524 [sender.py:send():378] send: summary
+2024-03-09 18:51:53,651 INFO    SenderThread:24524 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-09 18:51:53,651 DEBUG   SenderThread:24524 [sender.py:send_request():405] send_request: defer
+2024-03-09 18:51:53,651 INFO    SenderThread:24524 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-03-09 18:51:53,652 INFO    SenderThread:24524 [sender.py:transition_state():613] send defer: 6
+2024-03-09 18:51:53,652 DEBUG   HandlerThread:24524 [handler.py:handle_request():146] handle_request: defer
+2024-03-09 18:51:53,652 INFO    HandlerThread:24524 [handler.py:handle_request_defer():172] handle defer: 6
+2024-03-09 18:51:53,652 DEBUG   SenderThread:24524 [sender.py:send_request():405] send_request: defer
+2024-03-09 18:51:53,652 INFO    SenderThread:24524 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-03-09 18:51:53,655 DEBUG   HandlerThread:24524 [handler.py:handle_request():146] handle_request: status_report
+2024-03-09 18:51:53,734 INFO    Thread-12 :24524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/firex/Hackathon/aihackathon24/AI_HFT_Quantum_Project/notebooks/wandb/run-20240309_185102-aeuka8lz/files/output.log
+2024-03-09 18:51:53,734 INFO    Thread-12 :24524 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/firex/Hackathon/aihackathon24/AI_HFT_Quantum_Project/notebooks/wandb/run-20240309_185102-aeuka8lz/files/wandb-summary.json
+2024-03-09 18:51:53,846 INFO    SenderThread:24524 [sender.py:transition_state():613] send defer: 7
+2024-03-09 18:51:53,847 DEBUG   HandlerThread:24524 [handler.py:handle_request():146] handle_request: defer
+2024-03-09 18:51:53,847 INFO    HandlerThread:24524 [handler.py:handle_request_defer():172] handle defer: 7
+2024-03-09 18:51:53,849 DEBUG   SenderThread:24524 [sender.py:send_request():405] send_request: defer
+2024-03-09 18:51:53,849 INFO    SenderThread:24524 [sender.py:send_request_defer():609] handle sender defer: 7
+2024-03-09 18:51:54,395 INFO    wandb-upload_0:24524 [upload_job.py:push():131] Uploaded file /var/folders/s1/xfgvbv_17n14_mt0dcp2n2tr0000gn/T/tmpgfwbhxwqwandb/2enbe8i8-media/table/Cryptocurrency Sentiment Analysis Table _0_1eee6c4e9e0adad23b1d.table.json
+2024-03-09 18:51:54,556 DEBUG   HandlerThread:24524 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-09 18:51:54,740 INFO    Thread-12 :24524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/firex/Hackathon/aihackathon24/AI_HFT_Quantum_Project/notebooks/wandb/run-20240309_185102-aeuka8lz/files/config.yaml
+2024-03-09 18:51:56,928 INFO    SenderThread:24524 [sender.py:transition_state():613] send defer: 8
+2024-03-09 18:51:56,928 DEBUG   SenderThread:24524 [sender.py:send_request():405] send_request: poll_exit
+2024-03-09 18:51:56,928 DEBUG   HandlerThread:24524 [handler.py:handle_request():146] handle_request: defer
+2024-03-09 18:51:56,929 INFO    HandlerThread:24524 [handler.py:handle_request_defer():172] handle defer: 8
+2024-03-09 18:51:56,929 DEBUG   SenderThread:24524 [sender.py:send_request():405] send_request: defer
+2024-03-09 18:51:56,929 INFO    SenderThread:24524 [sender.py:send_request_defer():609] handle sender defer: 8
+2024-03-09 18:51:56,930 INFO    SenderThread:24524 [job_builder.py:build():298] Attempting to build job artifact
+2024-03-09 18:51:56,932 INFO    SenderThread:24524 [job_builder.py:_get_source_type():428] is repo sourced job
+2024-03-09 18:51:56,932 INFO    SenderThread:24524 [job_builder.py:_get_program_relpath():446] run is notebook based run
+2024-03-09 18:51:56,933 INFO    SenderThread:24524 [sender.py:transition_state():613] send defer: 9
+2024-03-09 18:51:56,933 DEBUG   HandlerThread:24524 [handler.py:handle_request():146] handle_request: defer
+2024-03-09 18:51:56,933 INFO    HandlerThread:24524 [handler.py:handle_request_defer():172] handle defer: 9
+2024-03-09 18:51:56,933 DEBUG   SenderThread:24524 [sender.py:send_request():405] send_request: defer
+2024-03-09 18:51:56,934 INFO    SenderThread:24524 [sender.py:send_request_defer():609] handle sender defer: 9
+2024-03-09 18:51:56,934 INFO    SenderThread:24524 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-03-09 18:51:57,569 DEBUG   HandlerThread:24524 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-09 18:51:57,752 INFO    SenderThread:24524 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/firex/Hackathon/aihackathon24/AI_HFT_Quantum_Project/notebooks/wandb/run-20240309_185102-aeuka8lz/files/output.log
+2024-03-09 18:51:57,752 INFO    SenderThread:24524 [dir_watcher.py:finish():388] scan: /Users/firex/Hackathon/aihackathon24/AI_HFT_Quantum_Project/notebooks/wandb/run-20240309_185102-aeuka8lz/files
+2024-03-09 18:51:57,752 INFO    SenderThread:24524 [dir_watcher.py:finish():402] scan save: /Users/firex/Hackathon/aihackathon24/AI_HFT_Quantum_Project/notebooks/wandb/run-20240309_185102-aeuka8lz/files/requirements.txt requirements.txt
+2024-03-09 18:51:57,752 INFO    SenderThread:24524 [dir_watcher.py:finish():402] scan save: /Users/firex/Hackathon/aihackathon24/AI_HFT_Quantum_Project/notebooks/wandb/run-20240309_185102-aeuka8lz/files/output.log output.log
+2024-03-09 18:51:57,752 INFO    SenderThread:24524 [dir_watcher.py:finish():402] scan save: /Users/firex/Hackathon/aihackathon24/AI_HFT_Quantum_Project/notebooks/wandb/run-20240309_185102-aeuka8lz/files/config.yaml config.yaml
+2024-03-09 18:51:57,754 INFO    SenderThread:24524 [dir_watcher.py:finish():402] scan save: /Users/firex/Hackathon/aihackathon24/AI_HFT_Quantum_Project/notebooks/wandb/run-20240309_185102-aeuka8lz/files/wandb-summary.json wandb-summary.json
+2024-03-09 18:51:57,754 INFO    SenderThread:24524 [dir_watcher.py:finish():402] scan save: /Users/firex/Hackathon/aihackathon24/AI_HFT_Quantum_Project/notebooks/wandb/run-20240309_185102-aeuka8lz/files/conda-environment.yaml conda-environment.yaml
+2024-03-09 18:51:57,756 INFO    SenderThread:24524 [dir_watcher.py:finish():402] scan save: /Users/firex/Hackathon/aihackathon24/AI_HFT_Quantum_Project/notebooks/wandb/run-20240309_185102-aeuka8lz/files/wandb-metadata.json wandb-metadata.json
+2024-03-09 18:51:57,759 INFO    SenderThread:24524 [dir_watcher.py:finish():402] scan save: /Users/firex/Hackathon/aihackathon24/AI_HFT_Quantum_Project/notebooks/wandb/run-20240309_185102-aeuka8lz/files/media/table/Cryptocurrency Sentiment Analysis Table _0_1eee6c4e9e0adad23b1d.table.json media/table/Cryptocurrency Sentiment Analysis Table _0_1eee6c4e9e0adad23b1d.table.json
+2024-03-09 18:51:57,760 INFO    SenderThread:24524 [sender.py:transition_state():613] send defer: 10
+2024-03-09 18:51:57,760 DEBUG   SenderThread:24524 [sender.py:send_request():405] send_request: poll_exit
+2024-03-09 18:51:57,760 DEBUG   HandlerThread:24524 [handler.py:handle_request():146] handle_request: defer
+2024-03-09 18:51:57,760 INFO    HandlerThread:24524 [handler.py:handle_request_defer():172] handle defer: 10
+2024-03-09 18:51:57,760 DEBUG   SenderThread:24524 [sender.py:send_request():405] send_request: defer
+2024-03-09 18:51:57,760 INFO    SenderThread:24524 [sender.py:send_request_defer():609] handle sender defer: 10
+2024-03-09 18:51:57,760 INFO    SenderThread:24524 [file_pusher.py:finish():172] shutting down file pusher
+2024-03-09 18:51:58,082 INFO    wandb-upload_1:24524 [upload_job.py:push():131] Uploaded file /Users/firex/Hackathon/aihackathon24/AI_HFT_Quantum_Project/notebooks/wandb/run-20240309_185102-aeuka8lz/files/requirements.txt
+2024-03-09 18:51:58,087 INFO    wandb-upload_0:24524 [upload_job.py:push():131] Uploaded file /Users/firex/Hackathon/aihackathon24/AI_HFT_Quantum_Project/notebooks/wandb/run-20240309_185102-aeuka8lz/files/output.log
+2024-03-09 18:51:58,156 INFO    wandb-upload_4:24524 [upload_job.py:push():131] Uploaded file /Users/firex/Hackathon/aihackathon24/AI_HFT_Quantum_Project/notebooks/wandb/run-20240309_185102-aeuka8lz/files/conda-environment.yaml
+2024-03-09 18:51:58,241 INFO    wandb-upload_3:24524 [upload_job.py:push():131] Uploaded file /Users/firex/Hackathon/aihackathon24/AI_HFT_Quantum_Project/notebooks/wandb/run-20240309_185102-aeuka8lz/files/wandb-summary.json
+2024-03-09 18:51:58,247 INFO    wandb-upload_2:24524 [upload_job.py:push():131] Uploaded file /Users/firex/Hackathon/aihackathon24/AI_HFT_Quantum_Project/notebooks/wandb/run-20240309_185102-aeuka8lz/files/config.yaml
+2024-03-09 18:51:58,450 INFO    Thread-11 (_thread_body):24524 [sender.py:transition_state():613] send defer: 11
+2024-03-09 18:51:58,451 DEBUG   HandlerThread:24524 [handler.py:handle_request():146] handle_request: defer
+2024-03-09 18:51:58,451 INFO    HandlerThread:24524 [handler.py:handle_request_defer():172] handle defer: 11
+2024-03-09 18:51:58,451 DEBUG   SenderThread:24524 [sender.py:send_request():405] send_request: defer
+2024-03-09 18:51:58,451 INFO    SenderThread:24524 [sender.py:send_request_defer():609] handle sender defer: 11
+2024-03-09 18:51:58,451 INFO    SenderThread:24524 [file_pusher.py:join():178] waiting for file pusher
+2024-03-09 18:51:58,452 INFO    SenderThread:24524 [sender.py:transition_state():613] send defer: 12
+2024-03-09 18:51:58,452 DEBUG   HandlerThread:24524 [handler.py:handle_request():146] handle_request: defer
+2024-03-09 18:51:58,453 INFO    HandlerThread:24524 [handler.py:handle_request_defer():172] handle defer: 12
+2024-03-09 18:51:58,453 DEBUG   SenderThread:24524 [sender.py:send_request():405] send_request: defer
+2024-03-09 18:51:58,453 INFO    SenderThread:24524 [sender.py:send_request_defer():609] handle sender defer: 12
+2024-03-09 18:51:58,453 INFO    SenderThread:24524 [file_stream.py:finish():595] file stream finish called
+2024-03-09 18:51:58,574 DEBUG   HandlerThread:24524 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-09 18:51:58,590 INFO    SenderThread:24524 [file_stream.py:finish():599] file stream finish is done
+2024-03-09 18:51:58,590 INFO    SenderThread:24524 [sender.py:transition_state():613] send defer: 13
+2024-03-09 18:51:58,590 DEBUG   SenderThread:24524 [sender.py:send_request():405] send_request: poll_exit
+2024-03-09 18:51:58,590 DEBUG   HandlerThread:24524 [handler.py:handle_request():146] handle_request: defer
+2024-03-09 18:51:58,590 INFO    HandlerThread:24524 [handler.py:handle_request_defer():172] handle defer: 13
+2024-03-09 18:51:58,590 DEBUG   SenderThread:24524 [sender.py:send_request():405] send_request: defer
+2024-03-09 18:51:58,590 INFO    SenderThread:24524 [sender.py:send_request_defer():609] handle sender defer: 13
+2024-03-09 18:51:58,590 INFO    SenderThread:24524 [sender.py:transition_state():613] send defer: 14
+2024-03-09 18:51:58,590 DEBUG   HandlerThread:24524 [handler.py:handle_request():146] handle_request: defer
+2024-03-09 18:51:58,590 INFO    HandlerThread:24524 [handler.py:handle_request_defer():172] handle defer: 14
+2024-03-09 18:51:58,591 DEBUG   SenderThread:24524 [sender.py:send():378] send: final
+2024-03-09 18:51:58,591 DEBUG   SenderThread:24524 [sender.py:send():378] send: footer
+2024-03-09 18:51:58,591 DEBUG   SenderThread:24524 [sender.py:send_request():405] send_request: defer
+2024-03-09 18:51:58,591 INFO    SenderThread:24524 [sender.py:send_request_defer():609] handle sender defer: 14
+2024-03-09 18:51:58,591 DEBUG   HandlerThread:24524 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-09 18:51:58,591 DEBUG   SenderThread:24524 [sender.py:send_request():405] send_request: poll_exit
+2024-03-09 18:51:58,592 DEBUG   HandlerThread:24524 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-09 18:51:58,592 DEBUG   HandlerThread:24524 [handler.py:handle_request():146] handle_request: server_info
+2024-03-09 18:51:58,592 DEBUG   HandlerThread:24524 [handler.py:handle_request():146] handle_request: get_summary
+2024-03-09 18:51:58,592 DEBUG   HandlerThread:24524 [handler.py:handle_request():146] handle_request: sampled_history
+2024-03-09 18:51:58,593 DEBUG   HandlerThread:24524 [handler.py:handle_request():146] handle_request: job_info
+2024-03-09 18:51:58,593 DEBUG   SenderThread:24524 [sender.py:send_request():405] send_request: server_info
+2024-03-09 18:51:58,717 DEBUG   SenderThread:24524 [sender.py:send_request():405] send_request: job_info
+2024-03-09 18:51:58,718 DEBUG   HandlerThread:24524 [handler.py:handle_request():146] handle_request: shutdown
+2024-03-09 18:51:58,718 INFO    HandlerThread:24524 [handler.py:finish():869] shutting down handler
+2024-03-09 18:51:59,595 INFO    WriterThread:24524 [datastore.py:close():296] close: /Users/firex/Hackathon/aihackathon24/AI_HFT_Quantum_Project/notebooks/wandb/run-20240309_185102-aeuka8lz/run-aeuka8lz.wandb
+2024-03-09 18:51:59,721 INFO    SenderThread:24524 [sender.py:finish():1521] shutting down sender
+2024-03-09 18:51:59,721 INFO    SenderThread:24524 [file_pusher.py:finish():172] shutting down file pusher
+2024-03-09 18:51:59,722 INFO    SenderThread:24524 [file_pusher.py:join():178] waiting for file pusher
