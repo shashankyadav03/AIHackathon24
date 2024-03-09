@@ -130,6 +130,21 @@ def get_account_info():
         json.dump(response, f)
     return response
 
+# signal = {'symbol': 'COMPUSDT', 'action': 'BUY', 'confidence': 0.8, 'volume': 1}
+def convert_signal_to_trade_action(signal):
+    symbol = signal['symbol']
+    action = signal['action']
+    confidence = signal['confidence']
+    volume = signal['volume']
+
+    if action == 'BUY' and confidence >= 0.8:
+        execution(symbol, volume, action)
+    elif action == 'SELL' and confidence >= 0.8:
+        execution(symbol, volume, action)
+    elif action == 'HOLD':
+        print("HOLD signal received. No action taken.")
+    else:
+        print("Signal is not strong enough to execute trade")
 def main():
     #Simulate trading environment
     get_account_info()
