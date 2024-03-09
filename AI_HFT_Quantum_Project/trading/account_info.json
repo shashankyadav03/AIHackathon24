@@ -15,7 +15,7 @@
     "brokered": false,
     "requireSelfTradePrevention": false,
     "preventSor": false,
-    "updateTime": 1710007599647,
+    "updateTime": 1710018973811,
     "accountType": "SPOT",
     "balances": [
         {
@@ -40,7 +40,7 @@
         },
         {
             "asset": "USDT",
-            "free": "9575.06710000",
+            "free": "9396.11980000",
             "locked": "0.00000000"
         },
         {
@@ -630,7 +630,7 @@
         },
         {
             "asset": "COMP",
-            "free": "9.00000000",
+            "free": "11.00000000",
             "locked": "0.00000000"
         },
         {
